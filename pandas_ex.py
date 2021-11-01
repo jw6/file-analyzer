@@ -12,3 +12,8 @@ print(df2)
 
 df3 = pandas.read_csv("./supermarkets/supermarkets.csv")
 df4 = pandas.read_json("./supermarkets/supermarkets.json")
+# set table header row
+df5 = pandas.read_csv("./supermarkets/supermarkets.json", header = None)
+
+# set column names
+d5.columns = ['ID', 'Address', 'City', 'ZIP', 'Country', 'Name', 'Employees']
